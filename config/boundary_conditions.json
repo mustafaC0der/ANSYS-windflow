@@ -1,0 +1,5 @@
+{
+    "inlet_velocity": 10.0,
+    "outlet_pressure": 0.0,
+    "wind_catcher_wall": "no-slip"
+}
