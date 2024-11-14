@@ -1,0 +1,12 @@
+# Ignore ANSYS Fluent output files and temporary files
+*.out
+*.log
+*.bak
+*.dat
+*.res
+*.msh
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
