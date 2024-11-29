@@ -1,37 +1,34 @@
 # Wind Catcher Simulation
 
-This project simulates wind catchers using ANSYS Fluent and custom User-Defined Functions (UDFs). The primary objective is to analyze the airflow dynamics through a wind catcher system under varying wind speeds and environmental conditions.
+This project will use ANSYS Fluent and custom User-Defined Functions (UDFs) to simulate a wind catcher. The primary goal is to examine the airflow dynamics through a wind catcher system with various wind speeds and environmental conditions.
 
 ## Project Structure
 
-- **`udf/`**: Custom User-Defined Functions (UDFs) for simulation control and customization.
+- **`udf/`**: Custom User-Defined Functions for control or modification of simulation.
 - **`config/`**: Configuration files for solver settings and boundary conditions.
 - **`simulation/`**: Contains mesh files, simulation case setups, and results.
-- **`scripts/`**: Automation scripts for running and post-processing the simulations.
-- **`docs/`**: Documentation, including the project report.
+- **`scripts/`**: Scripts to automate running and post-processing the simulation.
+- `docs/`: Project report with docstrings.
 
 ## Setup Instructions
 
 1. Clone the repository:
-    ```bash
-    git clone <repository-url>
-    ```
+END
+git clone <repository-url>
+```
 
-2. Install necessary dependencies for ANSYS Fluent, if not already installed.
+2. Install any missing dependencies required by ANSYS Fluent if not already installed.
 
-3. Configure the simulation settings:
-    - Modify the `config/boundary_conditions.json` and `config/solver_settings.json` as needed.
+Step 3: Configure simulation settings
+- Change `config/boundary_conditions.json` and `config/solver_settings.json` according to your needs.
 
-4. Run the simulation:
-    ```bash
-    ./scripts/run_simulation.sh
-    ```
+4. Run the Simulation:
+YOU
+./scripts/run_simulation.sh
+```
 
-5. Post-process the results:
-    ```bash
-    python scripts/post_process.py
-    ```
+5. Post-processing of results:
 
-## Documentation
+END
 
-For a detailed explanation of the methodology and results, refer to the `docs/report.md` file.
+python scripts/post_process.py END ## Documentation For more thorough details regarding methodology and results, refer the `docs/report.md` document.
