@@ -19,9 +19,7 @@ The solver was configured with a time step of 0.01 seconds and a maximum iterati
 
 ## Results
 
-### Velocity Profile
-
-![Velocity Profile](path_to_velocity_profile_image.png)
+### Velocity profile 
 
 ### Conclusion
 
